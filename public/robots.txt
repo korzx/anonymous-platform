@@ -1,0 +1,15 @@
+# robots.txt - Privacy-first search engine policy
+
+# Prevent indexing for full privacy
+User-agent: *
+Disallow: /
+
+# Prevent specific crawlers
+User-agent: AdsBot-Google
+Disallow: /
+
+User-agent: bingbot
+Disallow: /
+
+# Disable sitemap (no indexing wanted)
+# Sitemap: https://example.com/sitemap.xml

@@ -1,0 +1,105 @@
+# .gitignore - Privacy and Security
+
+# Environment variables (CRITICAL - Never commit)
+.env.local
+.env.*.local
+.env
+.env.production.local
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build output
+.next/
+out/
+dist/
+build/
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+*.iml
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# Runtime data
+tmp/
+temp/
+
+# Testing
+coverage/
+.nyc_output/
+.coverage
+
+# Misc
+.cache/
+.prettierignore
+*.pem
+
+# Local database
+*.db
+*.sqlite
+*.sqlite3
+
+# Yarn
+yarn-error.log
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Certificates & keys
+*.key
+*.cert
+*.crt
+*.pem
+private/
+secrets/
+
+# Backup files
+*.bak
+*.backup
+*~
+*.sqlite
+*.sqlite3
+
+# Encryption keys (if accidentally generated locally)
+*.key
+*.pem
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Keep environment example
+!.env.example

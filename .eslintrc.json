@@ -1,0 +1,44 @@
+// .eslintrc.json - Code quality enforcement
+
+{
+  "extends": [
+    "next/core-web-vitals"
+  ],
+  "rules": {
+    // Security rules
+    "no-console": ["warn", { "allow": ["warn", "error"] }],
+    "no-var": "error",
+    "prefer-const": "error",
+    
+    // Privacy rules
+    // No localStorage/sessionStorage in most files
+    "no-restricted-globals": [
+      "error",
+      {
+        "name": "localStorage",
+        "message": "Use server-side storage to prevent tracking"
+      },
+      {
+        "name": "sessionStorage",
+        "message": "Use server-side storage to prevent tracking"
+      }
+    ],
+    
+    // Code quality
+    "eqeqeq": ["error", "always"],
+    "no-implicit-coercion": "error",
+    "prefer-template": "error",
+    
+    // React specific
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/no-unescaped-entities": "warn",
+    
+    // TypeScript
+    "@typescript-eslint/no-explicit-any": "warn",
+    "@typescript-eslint/explicit-function-return-types": ["warn", {
+      "allowExpressions": true,
+      "allowTypedFunctionExpressions": true
+    }]
+  }
+}
