@@ -1,0 +1,18 @@
+[33mcommit 6e4902fdeb50b0166c520c1335dbeb2cb64fea32[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Merge: 3607124 ec06942
+Author: Sezer <tmrcoder0@gmail.com>
+Date:   Thu Apr 23 21:51:48 2026 +0300
+
+    Merge remote changes
+
+[33mcommit 3607124783ccb9c17b00d9bd5f03f23877d4a84f[m
+Author: Sezer <tmrcoder0@gmail.com>
+Date:   Thu Apr 23 21:50:42 2026 +0300
+
+    Initial commit: Anonymous platform - privacy-first design
+
+[33mcommit ec06942a267c45d2d97226624a350f656400a070[m
+Author: Tamer Sezer <82402069+korzx@users.noreply.github.com>
+Date:   Thu Apr 23 21:48:22 2026 +0300
+
+    Initial commit
